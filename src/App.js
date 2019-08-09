@@ -51,6 +51,7 @@ const initialLanguage =
 // Derive network type from the hostname.
 // Network settings determine which horizon instance to pull data from.
 const networkType = hostnameToNetworkType(window.location.hostname)
+console.log(networkType);
 const networkAddress =
   storage.getItem('networkAddress') || defaultNetworkAddresses[networkType]
 
