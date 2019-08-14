@@ -3,10 +3,6 @@ import {tmpdir} from 'os'
 import BigNumber from 'bignumber.js'
 import truncate from 'lodash/truncate'
 
-// Amounts in Stellar don't go below 7 decimals
-// So setting the EXPONENTIAL_AT to 8 here ensures all toString() will show the
-// numbers in full form. eg. 0.0000001 (not 1e7) which is what we want for
-// formatAmount().
 BigNumber.config({EXPONENTIAL_AT: 20})
 
 const shortHash = (hash, length = 10) => truncate(hash, {length})

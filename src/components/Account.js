@@ -202,7 +202,7 @@ const AccountSummaryPanel = ({
             {stellarAddr && (
               <Row>
                 <Col md={3}>
-                  <FormattedMessage id="stellar.address" />:
+                  <FormattedMessage id="spnc.address" />:
                 </Col>
                 <Col md={9}>{stellarAddr}</Col>
               </Row>

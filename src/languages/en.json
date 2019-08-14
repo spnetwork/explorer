@@ -43,7 +43,7 @@
   "error.occurred": "An error occurred: ",
   "error.insecure-network": "The horizon address is insecure!",
   "error.insecure-network.uri": "The horizon address \"{uri}\" is insecure!",
-  "error.insecure-network.reason": "You probably tried to set a horizon address with the prefix \"http\" instead of \"https\". Stellar allows \"http\" only for testnets.",
+  "error.insecure-network.reason": "You probably tried to set a horizon address with the prefix \"http\" instead of \"https\". Spnc allows \"http\" only for testnets.",
 
   "exchanges": "Exchanges",
 
@@ -168,8 +168,8 @@
   "signing": "Signing",
   "sold": "Sold",
   "source.account": "Source",
-  "stellar.address": "Stellar Address",
-  "stellar": "Stellar",
+  "spnc.address": "Spnc Address",
+  "spnc": "Spnc",
   "subentry.count": "Subentry Count",
 
   "thresholds": "Thresholds",
@@ -177,7 +177,7 @@
   "threshold.medium": "Medium",
   "threshold.high": "High",
   "time": "Time",
-  "title": "Stellar Explorer",
+  "title": "Spnc Explorer",
   "total.coins": "Total Coins",
   "trade": "Trade",
   "trades": "Trades",

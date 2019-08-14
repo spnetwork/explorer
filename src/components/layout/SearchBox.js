@@ -20,14 +20,14 @@ const HelpModal = props => (
       <h4>Search By:</h4>
       <br />
       <div>
-        <h5>Stellar Address</h5>
+        <h5>Spnc Address</h5>
         Also called a{' '}
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.stellar.org/developers/guides/concepts/federation.html#stellar-addresses"
         >
-          Stellar federated address
+          Spnc federated address
         </a>
         <img
           src={`${process.env.PUBLIC_URL}/search/search_stellar_address.png`}
@@ -100,7 +100,7 @@ const HelpModal = props => (
       <hr />
       <h4>OpenSearch:</h4>
       <div>
-        Stellar Explorer supports{' '}
+        Spnc Explorer supports{' '}
         <a
           target="_blank"
           rel="noopener noreferrer"

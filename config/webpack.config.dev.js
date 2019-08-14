@@ -261,4 +261,14 @@ module.exports = {
   performance: {
     hints: false,
   },
+  devServer:{
+    proxy:{
+      '/*':{
+        target:'http://node1.saipanchain.io:8000',
+        changeOrign:true,
+        secure:false
+      }
+    }
+   
+  }
 };

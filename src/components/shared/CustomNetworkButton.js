@@ -4,9 +4,9 @@ import Modal from 'react-bootstrap/lib/Modal'
 import {FormattedMessage} from 'react-intl'
 
 const networkAddresses = [
-  'https://horizon.stellar.org',
-  'https://stellar-api.wancloud.io',
-  'https://api.chinastellar.com',
+  'http://node1.saipanchain.io:8000',
+  'http://node1.saipanchain.io:8000',
+  'http://node1.saipanchain.io:8000',
 ]
 
 /**

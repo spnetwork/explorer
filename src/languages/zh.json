@@ -168,8 +168,8 @@
   "signing": "签名",
   "sold": "售出",
   "source.account": "源地址",
-  "stellar.address": "恒星地址",
-  "stellar": "恒星",
+  "spnc.address": "spnc地址",
+  "spnc": "spnc",
   "subentry.count": "子条目数量",
 
   "thresholds": "阈值",

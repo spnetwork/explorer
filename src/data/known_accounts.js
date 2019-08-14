@@ -10,9 +10,6 @@ import inflationPools from './inflation_pools'
 import directory from './directory'
 const {anchors, destinations} = directory
 
-/**
- * Produces a lookup of all known accounts keyed on the Stellar public address.
- */
 
 const KnownAccountPropTypes = Object.freeze({
   name: PropTypes.string,
